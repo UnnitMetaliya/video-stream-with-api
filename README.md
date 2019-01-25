@@ -2,7 +2,11 @@
 
 Streaming a video from given API end point using plain JavaScript. The project first parses JSON data, extracts necessary data needed and appends in client side to play a video with pause, play, forward, volume, download etc. controls.
 
-## Instruction
+The demo is live at: https://unnitmetaliya.github.io/video-stream-with-api/
+
+Or you can run locally following these instructions.
+
+## Instructions
 
 Follow these steps.
 
