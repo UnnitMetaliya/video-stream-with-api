@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+
+    <title>Video Streaming - CBC</title>
+
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="icon" href="favicon.png" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Nunito"
+      rel="stylesheet"
+    />
+
+    <script src="js/index.js"></script>
+  </head>
+  <body>
+    <!-- <h2>Please type in correct video ID:</h2>
+    <center>
+      <input type="text" id="video_id" />
+      <button onclick="getVideo()">Show Me Video</button>
+
+      <div class="news-story"></div>
+    </center> -->
+    <!-- <div class="cover">
+      <h1>Type in Correct Video ID.</h1>
+      <form class="flex-form">
+        <input type="search" id="video-id" placeholder="e.g 2667647842" />
+        <input type="button" onclick="getVideo()" value="Show Me Video" />
+      </form>
+      <div id="suggestedIDs">
+        {Try one of these: 1630723954, 2667647842, 1402726504}
+      </div>
+      <div class="web-player"></div> -->
+    <center>
+      <div id="container">
+        <div id="search-bar">
+          <h2>Please type in correct video ID:</h2>
+          <input
+            type="text"
+            placeholder="e.g 1430281795534"
+            id="video-id"
+            required
+          />
+          <button onclick="getVideo()">Show Me Video</button>
+          <div id="suggestedIDs">
+            {Try one of these: 1430944323825, 1430281795534, 1429627971938 }
+          </div>
+        </div>
+        <div class="web-player"></div>
+        <div class="meta-data"></div>
+      </div>
+    </center>
+  </body>
+</html>
